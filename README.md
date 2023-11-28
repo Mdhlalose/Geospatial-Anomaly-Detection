@@ -1,1 +1,3 @@
 # Geospatial-Anomaly-Detection
+
+In this notebook, I used supervised learning techniques to detect generalised anomalies across a set of bands in variable domain that are known to contain some information of interest in this case a known iron ore deposit. However, these anomalies are not known a-priori. Therefore, our task of anomaly detection is fully unsupervised. However, rather than trying all combinations of bands, we use the existing discipline-specific knowledge that the band ratios indicate that bands 4, 5 and 6 contain the most relevant information related to both ferric and ferrous oxides. This implies that, for the purpose of enhancing iron ore deposit anomalies, bands 4, 5 and 6 should be reconstructed with bands 1, 2, 3 and 7 as features. 
